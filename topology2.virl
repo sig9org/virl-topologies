@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <topology xmlns="http://www.cisco.com/VIRL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="0.9" xsi:schemaLocation="http://www.cisco.com/VIRL https://raw.github.com/CiscoVIRL/schema/v0.9/virl.xsd">
-    <node name="iosv-1" type="SIMPLE" subtype="IOSv" location="161,112">
-        <interface id="0" name="GigabitEthernet0/1"/>
-    </node>
-    <node name="iosv-2" type="SIMPLE" subtype="IOSv" location="333,201">
-        <interface id="0" name="GigabitEthernet0/1"/>
-    </node>
-    <connection dst="/virl:topology/virl:node[2]/virl:interface[1]" src="/virl:topology/virl:node[1]/virl:interface[1]"/>
+    <node name="iosv-1" type="SIMPLE" subtype="IOSv" location="242,152"/>
 </topology>
